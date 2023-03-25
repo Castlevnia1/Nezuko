@@ -22,7 +22,7 @@ module.exports={
       fs.unlinkSync(media)
       if (err) m.reply(err)
       let buffer = fs.readFileSync(ran)
-      client.sendMessage(m.from, { image: buffer,caption:'ETERNITY-2022' }, { quoted: m })
+      client.sendMessage(m.from, { image: buffer,caption:'💫ᴄᴀꜱᴛʟᴇᴠɴɪᴀ 先輩🍁-2022' }, { quoted: m })
       fs.unlinkSync(ran)
   })
 } else if (m.message.extendedTextMessage.contextInfo.quotedMessage.stickerMessage.isAnimated == true){
@@ -31,7 +31,7 @@ module.exports={
   
   let media = await client.downloadAndSaveMediaMessage(quoted)
   let webpToMp4 = await webp2mp4File(media)
-  await client.sendMessage(m.from, { video: { url: webpToMp4.result, caption: 'ETERNITY-2022' }, gifPlayback: true }, { quoted: m })
+  await client.sendMessage(m.from, { video: { url: webpToMp4.result, caption: '💫ᴄᴀꜱᴛʟᴇᴠɴɪᴀ 先輩🍁-2022' }, gifPlayback: true }, { quoted: m })
   await fs.unlinkSync(media)
 }
 

@@ -14,7 +14,7 @@ module.exports = {
 let rae = yup[Math.floor(Math.random() * yup.length)]
 
   
-const eternitylogogg = "https://i.ibb.co/t3Jd1wK/Eternity-6.png"
+const logogg = "https://i.ibb.co/t3Jd1wK/-6.png"
         
                          
 const lemo = `
@@ -27,6 +27,6 @@ https://chat.whatsapp.com/JCCZPbPUbM1536n62zSFZi
 https://chat.whatsapp.com/J1WfFPXtmzZGXFB59I0ETq
 `
   await client.sendMessage(m.from,{video:{url:rae}, gifPlayback:true, caption: `*${pushName}* have a look in your DM`},{quoted:m})
-  await  client.sendMessage(m.sender,{image:{url:eternitylogogg},caption:lemo},{quoted:m})  
+  await  client.sendMessage(m.sender,{image:{url:logogg},caption:lemo},{quoted:m})  
     }
 }

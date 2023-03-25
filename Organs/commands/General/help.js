@@ -36,7 +36,7 @@ module.exports = {
       ];
       let buth = {
         text: `*ℹ️Command Info*\n\n${data.join("\n")}`,
-        footer: "*©Eternity-Team*",
+        footer: "*©💫ᴄᴀꜱᴛʟᴇᴠɴɪᴀ 先輩🍁*",
         buttons: buttonss,
         headerType: 1,
       };
@@ -81,7 +81,7 @@ module.exports = {
           .join(", ")}\`\`\`\n\n`;
       }
       txt += `📗 Type *${prefix}help* <Command-Name> or <Command-Name> --info\n\n`;
-      txt += `*©Eternity-Team*`
+      txt += `*©💫ᴄᴀꜱᴛʟᴇᴠɴɪᴀ 先輩🍁*`
       const eternity = [
         "https://images3.alphacoders.com/107/1078895.png",
         "https://images6.alphacoders.com/103/1037400.png",

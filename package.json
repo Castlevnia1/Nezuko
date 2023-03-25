@@ -59,8 +59,8 @@
     "start": "node --max_old_space_size=8192 heart.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Eternity-Team",
+  "author": "💫ᴄᴀꜱᴛʟᴇᴠɴɪᴀ 先輩🍁",
   "license": "AGPL-3.0",
-  "repository": "https://github.com/EternityBots/Nezuko.git",
+  "repository": "https://github.com/Bots/Nezuko.git",
   "private": false
 }
