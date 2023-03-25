@@ -20,7 +20,7 @@ const logogg = "https://i.ibb.co/t3Jd1wK/-6.png"
 const lemo = `
 *━『 Support Group Links 』━*
 
-*1) [ Ɇ𝖙𝖊𝖗𝖓𝖎𝖙ɏ ] :*
+*1) [ 🌾🍃𝙳𝚊𝚗𝚍𝚎𝚕𝚒𝚘𝚗𝚜🍃🌾 ] :*
 https://chat.whatsapp.com/KLVwGTVcTkh0mIvtjIKCTb
 `
   await client.sendMessage(m.from,{video:{url:rae}, gifPlayback:true, caption: `*${pushName}* have a look in your DM`},{quoted:m})
